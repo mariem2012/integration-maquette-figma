@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main {
+    background-color: #2f303a;
+    
+
+}
+
+nav {
+    background-color: #2f303a;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+nav ul {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+   
+}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 25px;
+    color: #FFF;
+
+}
+
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+}
+.container .left, .container .right {
+    width: 50%;
+}
+.left {
+    
+}
+.right {
+  
+    
+}
+.right h1 {
+    margin-top: 182px;
+}
+.right P {
+
+}
+.right .join-now {
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    width: 90px;
+    color: #FFF;
+}
+.cercle-1 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-color: rgb(188, 58, 128, .1);
+  bottom: 5vw;
+  left: 5vw;
+  z-index: -1;
+}
+
+
