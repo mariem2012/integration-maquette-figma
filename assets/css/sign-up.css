@@ -45,3 +45,167 @@ nav ul li a {
     color: #FFF;
 
 }
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 530px;
+    margin: 0 auto;
+}
+.left, .right {
+    width: 50%;
+}
+.left {
+    display: flex;
+    align-items: center;
+
+}
+.left p {
+    font-size: 50px;
+    color: #FFF;
+}
+.left span {
+    font-size: 70px;
+    color: #BC3A80;
+} 
+
+.right {
+    display: flex;
+    align-items: center;
+     justify-content: flex-end;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #202027;
+    color: #FFF;
+    width: 80%;
+    height: 400px;
+    border-radius: 20px;
+    padding: 40px;
+}
+.form-sign-up {
+    display: flex;
+    flex-direction: column;
+}
+.form-sign-up input {
+    border: 1px solid #1762A7;
+    box-shadow: 1px 1px 1px #1762A7;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 12px;
+}
+.form-sign-up label {
+     margin-left: 12px;
+     margin-top: 10px;
+     
+}
+.button {
+    padding: 15px;
+    border-radius: 10px;
+    color: #FFF;
+    background-color: #1762A7;
+    border: none;
+    margin-top: 20px;
+    margin-left: 12px;
+    width: 370px;
+}
+footer {
+    background-color: #202027;
+    
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+    color: #FFF;
+}
+
+@media (max-width: 768px) {
+    nav {
+        /* flex-direction: column; */
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left p {
+        font-size: 40px;
+    }
+
+    .left span {
+        font-size: 50px;
+    }
+
+    .right {
+        justify-content: center;
+    }
+
+    .right form {
+        width: 90%;
+        padding: 20px;
+    }
+    .button {
+        width: 180px;
+    }
+
+        @media (max-width: 480px) {
+            nav {
+                width: 100%;
+            }
+    
+            nav ul {
+                margin-top: 5px;
+            }
+    
+            nav ul li a {
+                font-size: 12px;
+            }
+    
+            .container {
+                width: 100%;
+                flex-direction: column;
+            }
+    
+            .left p {
+                font-size: 20px;
+                text-align: center;
+            }
+    
+            .left span {
+                font-size: 30px;
+            }
+    
+            .right form {
+                width: 70%;
+                padding: 10px;
+            }
+    
+            .button {
+                width: 93%;
+                /* margin: 10px 0; */
+            }
+        }
+}
